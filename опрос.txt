@@ -1,0 +1,35 @@
+	<section id="about" class="about">
+		<div class="container5">
+			<img src="img/опрос.svg">
+			<h2>Есть вопросы?<br> Задавайте!</h2>
+		 	<div class="forma.zapolneniya">
+		 	</div>
+			<form method="post" action="form.php">
+ 			<div>
+     			<label for="name">Введите имя</label>
+     			 <input type="text" name="name" required>
+    			</div>
+    			<div class="radio">
+     			 <span>Пол</span>
+     			 <label>
+        	<input type="radio" name="sex" value="мужской">мужской
+        <div class="radio-control male"></div>
+      </label>
+      <label>
+        <input type="radio" name="sex" value="женский">женский
+        <div class="radio-control female"></div>
+      </label>
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" required>
+    </div>
+     <div>
+      <label for="question">Введитее Ваш вопрос</label>
+      <input type="question" name="question" required>
+    </div>
+ <input type="checkbox" id="politics">
+ 			Нажимая на кнопку "Отправить",я даю согласие на обработку своих персональных данных.</a>
+     		 <div class="select-arrow"></div> 
+    		</div> 
+   			 <button input type="submit" name="submit" class="submit" disabled="#" value="Отправить"/> 
