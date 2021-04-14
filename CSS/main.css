@@ -4,6 +4,7 @@ body {
 	font-family: 'Alina', sans-serif;
 	color: 000;
 	font-size: 16px;
+	
 }
 h1, h2,  {
 	padding: 0;
@@ -30,6 +31,7 @@ ul, li {
 	color:#000000;
 	padding-bottom: 33px;
 	border: 5px;
+
 }
 
 
@@ -161,11 +163,11 @@ header a {
 	 width: 257px;
 	 align-items: center;
 	 justify-content: center;
-	 margin-top: 75px;
+	 margin-top: 450px;
 	 margin-left: -120px;
 	 margin-right: 100px;
 	
-	}
+}
 
 .btn4 { display: block;
 	 font-size:17px;
@@ -243,9 +245,13 @@ header a {
 	background: url('../img/img6.png') no-repeat center top / cover;
 }
 
+.container4 h3{
+	font-size: 40px;
+	color: #000000;
+	margin-top: 370px;
+	text-align:left;
 
-
-
+}
 
 
 .verh{
@@ -330,9 +336,20 @@ header a {
 	font-weight:normal;
 }
 
+#kvadrat2 h2{
+	font-size: 20px; 
+	color: #000000;
+	font-style: italic;
+}
+
+
+
+
+
 .container5{
 	background: url('../img/container5.png') no-repeat center top / cover; 
 /*	display: flex;*/
+
 
 }
 
@@ -347,15 +364,15 @@ header a {
 
 
 
-.forma.zapolneniya{
-	font-size: 100px; 
 
-}
+
+
+
 
 
 
 .container6{
-	color: #ffffff
+	color: #ffffff;
 	background:#28282e; 
 	height:300px; 
 	width:1332px;
@@ -379,6 +396,12 @@ header a {
 	text-align: center;
 }
 
+
+
+
+
+
+
 .galery{
 	text-align: center;
 }
@@ -388,7 +411,15 @@ header a {
 
 }
 
-
+.container-video{
+	height: 700px;
+    width: 100%;
+	background-color: #74c445;
+	opacity: 0.50;
+    text-align: center;
+    overflow: hidden;
+	
+}
 
 
 
