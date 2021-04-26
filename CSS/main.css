@@ -14,7 +14,8 @@ h1, h2,  {
 
 ul, li {
 	display: block;
-	margin-left:25px;
+	margin-left:65px;
+	margin-bottom: 5px;
 }
 	
 .container {
@@ -32,10 +33,39 @@ ul, li {
 	padding-bottom: 33px;
 	border: 5px;
 
+
 }
 
+.logo{
+
+	height: 133px;
+    width:192px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width:0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    transition: 3s;
+   
+   
+
+}
+
+.galery-menu{
+
+	margin-top: 90px;
 
 
+
+
+  
+
+  }
 
 header a {
 	color: #fff;
@@ -53,31 +83,42 @@ header a {
 
 .menu{
 	display:  flex;
+	margin-top: 100px;
 
 }
 
 .menu li a {
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 17px;
+	font-weight:bold;
+	margin-top: 50px;
 }
 
 .menu li {
-	margin-right:40px;
+	margin-right:50px;
+	
+
 }
 
+
+
+
+
 .tel {
-	font-size: 20px;
+	font-size: 25px;
 	margin-left: 28px;
 	text-decoration: none;
-	
+	font-weight:bold;
+	margin-bottom: 2px;
+	margin-top: 100px;
 } 
 
 
 .social_link{
 	display: block;
 	width: 36px;
-	height: 36px;
+	height:36px;
 	background-repeat: no-repeat;
 	background-position:center center; 
 }
@@ -86,11 +127,22 @@ header a {
 	display: flex;
 	align-items: center;
 	background:rgba(0, 213, 87, 0.6);
-	position: fixed;
-	width: 100%; top: 0; left:0;
-	padding-bottom: 5px;
-	z-index:9;
+
+	
+
+	
+	
 }
+
+.test{
+ 	position: fixed;
+ 	width: 500%; top:0; left:0;
+ 	margin-top: -10%;
+ 	z-index:9;
+    
+
+}
+
 
 
 
@@ -100,7 +152,8 @@ header a {
 
 .offer {
 	text-transform: uppercase;
-	margin-top: 270px;
+	margin-top: 290px;
+
 }
 
 .container2 {
@@ -112,20 +165,23 @@ header a {
 	
 }
 .offer h1{
-	font-size: 42px;
+	font-size: 45px;
 	margin-bottom: 70px;
 	margin-top: -100px;
-	letter-spacing: 0.02em
+	letter-spacing: 0.02em;
+
+
 }
 
 .offer h2{
-	font-size: 20px;
-	margin-bottom: 19px;
+	font-size: 23px;
+	margin-bottom: 20px;
 	margin-right: 100px;
 }
 
 
-.btn { display: block;
+.btn { 
+	display: block;
 	 font-size:17px;
 	 text-align: center;
 	 letter-spacing: 0.1em;
@@ -133,13 +189,15 @@ header a {
 	 width: 257px;
 	 align-items: center;
 	 justify-content: center;
-	 margin-right: 20px;
+	 margin-left: 20px;
+	
+
 	 
 }
 
-
 .container2 h2 {
 	text-align: center;
+	
 }
 
 .btn2 { display: block;
@@ -187,14 +245,17 @@ header a {
 }
 
 .description p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	text-align: justify;
-	line-height: 1.62em;
+	font-family: system-ui;
+	font-weight: 500;
+	text-align: start end;
+	display:inline;
+	line-height: 0.999em;
+
 }
 
 .desc-left, .desc-right {
 	width:567px;
+	
 }
 
 .news{
@@ -202,11 +263,17 @@ header a {
 	display:  flex;
 }
 
-.news-pic{
-	width: 150px;
-	height: 150px;
-	display: block;
+.news p{
+	font-size: 18px;
+	text-align: justify;
 
+}
+
+.news-pic{
+	width: 250px;
+	height: 275px;
+	display: block;
+	text-align: center;
 }
 
 .new-info{
@@ -214,14 +281,37 @@ header a {
 
 }
 
-.news-info h3{
-	text-align: center;
+
+
+
+
 }
 
 .news-info p{
 	text-align: center;
-	 font-weight:lighter;
+	font-weight:lighter;
+	display: inline-block;
+
+
 	}
+
+
+.news-info h3{
+
+	display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.news-pic h3{
+
+	margin-top: 50px;
+}
+
+
+
+
 
 .container3 {
 	width: 1170px;
@@ -245,14 +335,13 @@ header a {
 	background: url('../img/img6.png') no-repeat center top / cover;
 }
 
-.container4 h3{
-	font-size: 40px;
-	color: #000000;
-	margin-top: 370px;
-	text-align:left;
+
+.container3 p {
+	font-size: 18px;
+	/*text-transform: uppercase;*/
+	word-break: initial;
 
 }
-
 
 .verh{
 	display: flex;
@@ -294,8 +383,8 @@ header a {
 }
 
 .title{
-	height:200px; 
-	width:200px;
+	height:250px; 
+	width:215px;
 	background:white;
 	border-radius: 15px; 
 	position: absolute;
@@ -311,6 +400,7 @@ header a {
 	color: #45bf4b;
 	font-size: 70px; 
 	text-align: center;
+
 }
 
 .title p{
@@ -325,8 +415,8 @@ header a {
 }
 
 #kvadrat2{
-	height:200px; 
-	width:200px;
+	height:250px; 
+	width:215px;
 	background:#c5e8ac; 
 	position: absolute;
 	margin-top: 210px;
@@ -340,10 +430,18 @@ header a {
 	font-size: 20px; 
 	color: #000000;
 	font-style: italic;
+	font-weight: bold;
+
 }
 
 
+#kvadrat2 p{
+	font-size: 15px; 
+	color: #000000;
+	font-style: inherit;
+	font-weight: bold;
 
+}
 
 
 .container5{
@@ -363,12 +461,20 @@ header a {
 
 
 
+.videotext h5{
+	font-size: 40px; 
+	color: #000000;
+	margin-top: 50px;
+	margin-bottom: 30px;
+
+}
 
 
-
-
-
-
+.videotext p{
+	font-size: 30px; 
+	color: #e0401c;
+	font-weight:bold;
+}
 
 
 .container6{
